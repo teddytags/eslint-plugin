@@ -7,6 +7,9 @@
     "eslintplugin",
     "eslint-plugin"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Pranav Karawale",
   "main": "lib/index.js",
   "scripts": {
