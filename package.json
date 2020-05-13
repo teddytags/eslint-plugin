@@ -1,0 +1,27 @@
+{
+  "name": "@teddytags/eslint-plugin",
+  "version": "1.0.0",
+  "description": "ESLint integration with TeddyTags",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Pranav Karawale",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive --timeout 100000"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "mocha": "^7.1.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
